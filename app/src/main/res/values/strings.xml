@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">YFC</string>
+
+    <!-- Label for overflow menu option that inserts fake data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All</string>
+
+    <!-- Title for the activity to add a new member [CHAR LIMIT=20] -->
+    <string name="form_activity_title_new_member">Add a New Member</string>
+
+    <!-- Label for editor menu option to save new member and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current member [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="individual_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="individual_gender">Gender</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="individual_measurement">Measurement</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_individual_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_breed">Breed</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_weight">Weight</string>
+
+    <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_pet_weight">kg</string>
+
+    <!-- Label for dropdown menu option if the individual is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the individual is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+    <!-- Notification for editor menu option to save pet when in CatalogActivity [CHAR LIMIT=20] -->
+    <string name="notification_action_save">Pet saved</string>
+
+    <!-- Notification for editor menu option to save pet when in CatalogActivity [CHAR LIMIT=20] -->
+    <string name="notification_action_save_error">Error with saving pet</string>
+</resources>
