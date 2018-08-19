@@ -16,26 +16,56 @@
     <!-- Label for editor overflow menu option that deletes the current member [CHAR LIMIT=20] -->
     <string name="action_delete">Delete</string>
 
-    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <!-- Label for personal details category of individual in the editor [CHAR LIMIT=30] -->
+    <string name="personal_details">Personal Details</string>
+
+    <!-- Text hint for first name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_first_name">First Name</string>
+
+    <!-- Text hint for last name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_last_name">Last Name</string>
+
+    <!-- Label for overview category of individual name in the editor [CHAR LIMIT=30] -->
     <string name="individual_overview">Overview</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="individual_DOB">Date of Birth</string>
 
     <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
     <string name="individual_gender">Gender</string>
 
-    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
-    <string name="individual_measurement">Measurement</string>
+    <!-- Label for educational details category of individual in the editor [CHAR LIMIT=30] -->
+    <string name="educational_details">Educational Details</string>
+
+    !-- Label for overview category of individual matric in the editor [CHAR LIMIT=30] -->
+    <string name="individual_matriculation">Matric No</string>
+
+    <!-- Label for department information in the editor [CHAR LIMIT=30] -->
+    <string name="individual_department">Department</string>
+
+    <!-- Label for faculty information in the editor [CHAR LIMIT=30] -->
+    <string name="individual_faculty">Faculty</string>
+
+    <!-- Label for level information in the editor [CHAR LIMIT=30] -->
+    <string name="individual_level">Level</string>
+
+    <!-- Text hint for first name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_matric_no">17MS1010</string>
+
+    <!-- Text hint for date field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_date">01</string>
+
+    <!-- Text hint for month field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_month">September</string>
+
+    <!-- Text hint for year field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_year">1996</string>
 
     <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_individual_name">Name</string>
-
-    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_pet_breed">Breed</string>
-
-    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_pet_weight">Weight</string>
+    <string name="hint_level">100</string>
 
     <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
-    <string name="unit_pet_weight">kg</string>
+    <string name="level_indicator">Level</string>
 
     <!-- Label for dropdown menu option if the individual is male [CHAR LIMIT=20] -->
     <string name="gender_male">Male</string>

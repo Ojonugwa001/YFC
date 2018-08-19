@@ -20,6 +20,12 @@
     android:padding="@dimen/activity_margin"
     tools:context=".EditorActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_details"
+        android:inputType="textCapWords"/>
+
     <!-- Overview category -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,17 +45,17 @@
             android:paddingLeft="4dp"
             android:orientation="vertical">
 
-            <!-- Name field -->
+            <!-- First Name field -->
             <EditText
-                android:id="@+id/edit_individual_name"
-                android:hint="@string/hint_individual_name"
+                android:id="@+id/edit_first_name"
+                android:hint="@string/hint_first_name"
                 android:inputType="textCapWords"
                 style="@style/EditorFieldStyle" />
 
-            <!-- Breed field -->
+            <!-- Last Name field -->
             <EditText
-                android:id="@+id/edit_pet_breed"
-                android:hint="@string/hint_pet_breed"
+                android:id="@+id/edit_last_breed"
+                android:hint="@string/hint_last_name"
                 android:inputType="textCapWords"
                 style="@style/EditorFieldStyle" />
         </LinearLayout>
@@ -84,16 +90,152 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Measurement category -->
+    <!-- Date of Birth category -->
     <LinearLayout
-        android:id="@+id/container_measurement"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <!-- Label -->
         <TextView
-            android:text="@string/individual_measurement"
+            android:text="@string/individual_DOB"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="horizontal">
+
+            <!-- Day field -->
+            <EditText
+                android:id="@+id/edit_date"
+                android:hint="@string/hint_date"
+                android:inputType="date"
+                style="@style/EditorFieldStyle2" />
+
+            <!-- Month field -->
+            <EditText
+                android:id="@+id/edit_month"
+                android:hint="@string/hint_month"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle2" />
+
+            <EditText
+                android:id="@+id/edit_year"
+                android:hint="@string/hint_year"
+                android:inputType="date"
+                style="@style/EditorFieldStyle2" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:text="@string/educational_details" />
+
+    <!-- Matric info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/individual_matriculation"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Matric field -->
+            <EditText
+                android:id="@+id/edit_matric"
+                android:hint="@string/hint_matric_no"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Faculty category -->
+    <LinearLayout
+        android:id="@+id/container_Faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/individual_faculty"
+            style="@style/CategoryStyle" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Faculty drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_faculty"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Department category -->
+    <LinearLayout
+        android:id="@+id/container_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/individual_department"
+            style="@style/CategoryStyle" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Department drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_department"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Level category -->
+    <LinearLayout
+        android:id="@+id/container_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/individual_level"
             style="@style/CategoryStyle" />
 
         <!-- Input fields -->
@@ -103,18 +245,19 @@
             android:layout_weight="2"
             android:paddingLeft="4dp">
 
-            <!-- Weight field -->
+            <!-- Level field -->
             <EditText
-                android:id="@+id/edit_pet_weight"
-                android:hint="@string/hint_pet_weight"
+                android:id="@+id/edit_level"
+                android:hint="@string/hint_level"
                 android:inputType="number"
                 style="@style/EditorFieldStyle" />
 
-            <!-- Units for weight (kg) -->
+            <!-- Indicator for Level -->
             <TextView
                 android:id="@+id/label_weight_units"
-                android:text="@string/unit_pet_weight"
+                android:text="@string/level_indicator"
                 style="@style/EditorUnitsStyle"/>
         </RelativeLayout>
     </LinearLayout>
+
 </LinearLayout>
