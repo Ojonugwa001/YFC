@@ -109,25 +109,13 @@
             android:paddingLeft="4dp"
             android:orientation="horizontal">
 
-            <!-- Day field -->
             <EditText
-                android:id="@+id/edit_date"
-                android:hint="@string/hint_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="date"
-                style="@style/EditorFieldStyle2" />
-
-            <!-- Month field -->
-            <EditText
-                android:id="@+id/edit_month"
-                android:hint="@string/hint_month"
-                android:inputType="textCapWords"
-                style="@style/EditorFieldStyle2" />
-
-            <EditText
-                android:id="@+id/edit_year"
-                android:hint="@string/hint_year"
-                android:inputType="date"
-                style="@style/EditorFieldStyle2" />
+                android:hint="22 / 08 / 2018"
+                android:focusable="false"
+                android:id="@+id/editDate"/>
         </LinearLayout>
     </LinearLayout>
 

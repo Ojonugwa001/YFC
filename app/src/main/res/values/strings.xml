@@ -50,16 +50,7 @@
     <string name="individual_level">Level</string>
 
     <!-- Text hint for first name field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_matric_no">17MS1010</string>
-
-    <!-- Text hint for date field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_date">01</string>
-
-    <!-- Text hint for month field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_month">September</string>
-
-    <!-- Text hint for year field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_year">1996</string>
+    <string name="hint_matric_no">Matric No</string>
 
     <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
     <string name="hint_level">100</string>
@@ -73,9 +64,55 @@
     <!-- Label for dropdown menu option if the individual is female [CHAR LIMIT=20] -->
     <string name="gender_female">Female</string>
 
-    <!-- Notification for editor menu option to save pet when in CatalogActivity [CHAR LIMIT=20] -->
-    <string name="notification_action_save">Pet saved</string>
+    <!-- Label for dropdown menu option if the member is in Faculty of Agriculture[CHAR LIMIT=20] -->
+    <string name="faculty_agriculture">Agriculture</string>
 
-    <!-- Notification for editor menu option to save pet when in CatalogActivity [CHAR LIMIT=20] -->
-    <string name="notification_action_save_error">Error with saving pet</string>
+    <!-- Label for dropdown menu option if the member is in Agricultural Economics & Extension
+    Department[CHAR LIMIT=20] -->
+    <string name="department_agricultural_economics_n_extension">Agricultural Economics &amp; Extension</string>
+
+    <!-- Label for dropdown menu option if the member is in Animal Production Department[CHAR LIMIT=20] -->
+    <string name="department_animal_production">Animal Production</string>
+
+    <!-- Label for dropdown menu option if the member is in Animal Production Department[CHAR LIMIT=20] -->
+    <string name="department_soil_n_environmental_management">Soil &amp; Environmental Management</string>
+
+    <!-- Label for dropdown menu option if the member is in Crop Production Department[CHAR LIMIT=20] -->
+    <string name="department_crop_production">Crop Production</string>
+
+    <!-- Label for dropdown menu option if the member is in Fisheries & Aquaculture Department[CHAR LIMIT=20] -->
+    <string name="department_fisheries_aquaculture">Fisheries &amp; Aquaculture</string>
+
+    <!-- Label for dropdown menu option if the member is in Fisheries & Aquaculture Department[CHAR LIMIT=20] -->
+    <string name="department_food_science_technology">Food Science &amp; Technology</string>
+
+    <!-- Label for dropdown menu option if the member is in Fisheries & Aquaculture Department[CHAR LIMIT=20] -->
+    <string name="department_home_sciences">Home Sciences</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Arts & Humanities[CHAR LIMIT=20] -->
+    <string name="faculty_arts_n_humanities">Arts &amp; Humanities</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Education[CHAR LIMIT=20] -->
+    <string name="faculty_education">Education</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Health Science[CHAR LIMIT=20] -->
+    <string name="faculty_health_science">Health Science</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Law[CHAR LIMIT=20] -->
+    <string name="faculty_law">Law</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Management Science[CHAR LIMIT=20] -->
+    <string name="faculty_management_science">Management Science</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Natural Sciences[CHAR LIMIT=20] -->
+    <string name="faculty_natural_sciences">Natural Sciences</string>
+
+    <!-- Label for dropdown menu option if the member is in Faculty of Social Sciences[CHAR LIMIT=20] -->
+    <string name="faculty_social_sciences">Social Sciences</string>
+
+    <!-- Notification for editor menu option to save member when in CatalogActivity [CHAR LIMIT=20] -->
+    <string name="notification_action_save">Member saved</string>
+
+    <!-- Notification for editor menu option to save member when in CatalogActivity [CHAR LIMIT=20] -->
+    <string name="notification_action_save_error">Error with saving Member</string>
 </resources>
